@@ -20,8 +20,10 @@ RUN apt-get update && \
     libmcrypt-dev \
     libreadline-dev \
     # for pgsql
-    libpq-dev
-    # mcrypt
+    libpq-dev \
+    wget \
+    vi
+
 
 RUN ln -s /usr/lib/x86_64-linux-gnu/libldap.so /usr/lib/libldap.so \
     && ln -s /usr/lib/x86_64-linux-gnu/liblber.so /usr/lib/liblber.so
