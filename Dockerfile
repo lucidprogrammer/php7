@@ -22,7 +22,7 @@ RUN apt-get update && \
     # for pgsql
     libpq-dev \
     wget \
-    vi
+    vim
 
 
 RUN ln -s /usr/lib/x86_64-linux-gnu/libldap.so /usr/lib/libldap.so \
